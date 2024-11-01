@@ -49,7 +49,7 @@ Termusp is a simple, web-based terminal emulator. Users can enter shell commands
 
 1. Clone this repository and navigate to the `server` directory:
    ```bash
-   git clone https://github.com/YadavYashvant/termsup.git
+   git clone https://github.com/YadavYashvant/termusp.git
    cd termusp/server
    ```
 
@@ -115,8 +115,8 @@ termusp/
 
 ### Key Files
 
-- `server/src/main/java/com/example/terminal/TerminalWebSocketHandler.java`: Handles WebSocket messages, executes shell commands, and sends back output.
-- `client/pages/index.js`: Main UI component that connects to the WebSocket, takes input, and displays output.
+- `server/src/main/java/com/yashvant/server/TerminalWebSocketHandler.java`: Handles WebSocket messages, executes shell commands, and sends back output.
+- `client/app/page.tsx`: Main UI component that connects to the WebSocket, takes input, and displays output.
 
 ## Security Considerations
 
