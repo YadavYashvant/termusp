@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Termsup",
-  description: "A simple implementation of web socket",
+  description: "A web socket implementation to make terminal emulators.",
 };
 
 export default function RootLayout({
