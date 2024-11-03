@@ -27,8 +27,11 @@ export default function Home() {
   };
 
   return (
-      <div style={{ padding: "20px" }}>
-        <h1>Web-Based Terminal Emulator</h1>
+      <div style={{ 
+        padding: "20px",
+        margin: "20px",
+      }}>
+        <h1>Welcome to termusp</h1>
         <div
             style={{
               border: "1px solid black",
